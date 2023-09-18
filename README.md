@@ -43,10 +43,10 @@ Advanced Physical Design using OpenLANE/Sky130
 
 ## Introduction to QFN-48 Package,chip,pads,core,die and IPs
 
-<img width="350" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/03b887a4-97b7-4139-8bc9-e7c725d3bea6">
+<img width="350" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/e9269d03-a16b-4512-a564-5947e9bbe083">
 -->
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/c52d516e-1f09-4ea7-953a-f72482f09beb">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/87f0f3fb-5807-4b9b-9d21-fa4533899759">
 
 - QFN-48(Quad Flat No-Lead 48) package is a commonly used IC packaging format known for its compact size and thermal efficiency.
 - Within this package, several crucial components play distinct roles in the functioning of an electronic device:
@@ -55,13 +55,14 @@ Advanced Physical Design using OpenLANE/Sky130
    - The QFN-48 package refers to the physical housing that encases an integrated circuit.
    - It features a flat, square or rectangular shape with a set number of external pins or leads for electrical connections.
    - The "48" in QFN-48 indicates the total number of pins on the package.
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/625b8397-5bb4-42ef-829c-1844e51ac5e0">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/39244da7-99c7-4d70-9ade-6ea1279a2859">
+
 
 - **Chip**
    - The chip, also referred to as the integrated circuit (IC) or die, represents the heart and brains of the electronic device.
    - This tiny silicon wafer contains intricate semiconductor components, including transistors, resistors, and capacitors, arranged to execute specific functions as per the device's design and intended application.
    - The chip is encapsulated within the QFN-48 package.
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/bcdf7650-66a1-49c5-9fa8-19e86e3cd7d6">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/b1b49058-3fc8-4bc5-84c4-af02f731348f">
 
 - **Pads**
    - On the underside of the QFN-48 package, an array of metallic pads is arranged. 
@@ -76,13 +77,14 @@ Advanced Physical Design using OpenLANE/Sky130
    - Die refers to a small, individual piece of silicon that contains the electronic components of a single IC or semiconductor device.
    - Each die plays a critical role in the overall functionality of the semiconductor device it is a part of.
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/8b8087f2-bf2f-4325-9a1d-43540158cd39">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/0250d075-b6a3-4d2c-a180-27fc0cdb12e1">
+
 
 - **IPs**
    - Intellectual properties (IPs) are modular components that can be integrated into the chip's design to add specific functions, making the overall design process more efficient and cost-effective.
    - **Foundries** play a crucial role in the semiconductor industry by providing semiconductor manufacturing services to companies that design ICs but do not have the facilities or expertise to produce them in-house.
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/b6029bd0-f1f9-44db-a5e0-c8a65d7c3ec3">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/67250a83-35b4-4b38-9ba9-8c9c1fafb7b0">
 
 ## Introduction to RISC-V
 - The RISC-V Instruction Set Architecture (ISA) is an open and royalty-free standard ISA for designing efficient and scalable computer architectures.
@@ -91,7 +93,8 @@ Advanced Physical Design using OpenLANE/Sky130
 - Simplified ISA: Following the RISC philosophy, it features a streamlined and orthogonal instruction set for efficient hardware design and compiler optimization.
 - Scalability: RISC-V scales from small embedded devices to high-performance systems with 32-bit, 64-bit, and 128-bit address spaces.
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/b63793d6-c597-49b0-aebd-13f3ff3a95af">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/2754a35c-e95a-420c-99eb-97ec7a56fff0">
+
 
 ## From Software Applications to Hardware
 
@@ -117,7 +120,8 @@ The flow you've outlined represents the layers and components of a typical compu
 
 The flow reflects the hierarchical structure of a computing system, with each layer building upon the one below it. Application software relies on system software to interact with and control hardware resources. System software, in turn, depends on the hardware to execute its functions. This layered approach is essential for the proper functioning of modern computer systems and ensures a separation of concerns between different levels of software and hardware.
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/5b616cf7-4ac8-414d-9574-b157b1576cc8">
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/6b8bc141-2373-48cb-b474-e7e653954843">
+
 
 # SoC design and OpenLANE 
 
@@ -125,8 +129,7 @@ The flow reflects the hierarchical structure of a computing system, with each la
 ## Introduction to all components of open-source digital asic design
 The open-source approach aims to democratize and make ASIC design more accessible to a broader community of engineers and designers, fostering innovation and collaboration.
 
-<img width="562" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/1171e642-7326-42c1-bca2-a6c010cd2cf6">
-
+<img width="562" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/66044ce1-88f0-4aa2-823a-305a88cd9925">
 
 ## Simplified RTL2GDS flow
 Register Transfer Level to Graphic Data System flow is a complex and multi-step process used to design and fabricate integrated circuits (ICs).
@@ -136,7 +139,8 @@ Register Transfer Level to Graphic Data System flow is a complex and multi-step 
 - **GDS (Graphics Database System)**:
    - GDS is a file format and a set of tools used for representing and manipulating the physical layout of integrated circuits. GDS files contain information about the position, shape, size, and connectivity of all the components and interconnects on a semiconductor chip.   
 
-<img width="563" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/e8b3fb18-d79b-4f1a-a8bf-7b0defb2b226">
+<img width="563" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/4a0ce8ae-d33c-4933-aade-30353270990f">
+
 
 - **Synthesis**
    - Converts RTL to a circuit out of components from the standard library (SCL)
@@ -186,7 +190,8 @@ Register Transfer Level to Graphic Data System flow is a complex and multi-step 
    - Containerized : Functional out of the box , Instructions to build and run natively will follow
    - Modes of operation: Autonomous or Interactive
      
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/3ac775c1-b3b8-4550-b639-0b2fa1ef47cc)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/c1680d96-d70a-4a7d-b046-1463ed3c215d)
+
 
 OpenLANE flow consists of several stages. By default all flow steps are run in sequence. Each stage may consist of multiple sub-stages. OpenLANE can also be run interactively as shown [here][25].
 
@@ -224,60 +229,64 @@ OpenLANE flow consists of several stages. By default all flow steps are run in s
        
 - **striVe** : OpenLANE was used successfully for the tape out of a family of RISC-V based SoCs called “striVe”. - Open PDK, Open EDA, Open RTL
   
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/32118d3a-528e-488f-8e7a-b02668ce8159)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/ed34acb8-a1e7-4ce6-a8e7-6b34c9d7a342)
+
   
 - OpenLANE is an open-source EDA toolchain that aids in the design and verification of digital chips, while Strive Chipsets are the customized semiconductor chipsets created using EDA tools like OpenLANE to address specific application or market needs. Together, they represent the intersection of open-source collaboration and customized semiconductor design for a wide range of industries and applications.
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/b6d8ee77-0a50-408e-8f61-9547f3186796)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f6a93f4d-a2cf-4795-b66d-5d35edefa68e)
+
 
 
 # Get familiar to open-source EDA tools
 ## Skywater PDK Files
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/bb09b40b-81e2-413e-b035-110056d1992b)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/270c68db-60da-42d5-b145-bcc3e58b5510)
+
 
 - There are three subdirectories
    - **Skywater-pdk**: Contains all the PDK related files
    - **Open_pdks**: Contains scripts that are used to bridge the gap between closed-source and open-source PDK to EDA tool compatibility
    - **Sky130A**: Compatible open-source PDK files
 ## Invoking OpenLANE
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/bebf9028-f10d-4d81-b6ea-98c5f4ea3174)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/e78f5e0e-6274-45d9-b0fa-f878aa98b9c3)
 
 - `flow.tcl` is the file that contains the script to run the designs
 - `-interactive` - runs step by step process (interactive mode)
 ## Importing package
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/9adf9b64-36eb-4e5f-92e7-d08ee52a5365)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/ffb3ac51-f674-461b-b3a8-d38daa6e15d7)
 
 
 - `package require openlane 0.9` To import all the packages that are required to run OpenLANE
 ## OpenLANE design folder
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/fd358940-646d-4122-97b4-9a5b5d73b8e9)
-
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/ad58def0-b153-4153-a05e-48906c6cc034)
 
 - All the designs run within OpenLANE are in design folder
 ## Hierarchy of Design folder
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/d1904b49-8d5b-48af-92de-42e287815288)
-
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/907d4200-9ca5-4d46-b715-6e575af85d4c)
 
 Every design folder has_
 - `Src folder` : Contains verilog files and sdc constraint files
 - `Config.tcl files`: Design specific configuration switches used by OpenLANE
   
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/ba91f191-1070-431f-ab38-4daa55950a8b)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/d963b90a-34db-43c6-aedc-4e80aa1a2ae0)
+
   -`less config.tcl` 
 ## Prepare the design
 - To Setup files specific to the design flow
 - `prep -design <design_name>`
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/e5c6b465-9190-4532-af78-266eae5a4366)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/7b58a64b-7c26-4a3a-87d3-1bde824003bd)
 
 - After design prep , there will be a new run directory created ,where all the results will be stored. 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/42572d0b-1db4-4c65-bfd2-f20c2cad3859)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/74e04fb3-4820-4a6e-842e-ec53a9c0e8ff)
+
 
  ## Synthesis
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/4f0a7927-c389-4a6d-a71f-f6ad5507dd1d)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/40af13a8-851e-4b9c-8964-98064f32a2d6)
 
 - `run_synthesis`: To run synthesis
 - After synthesis find the flop ration = No. of D flip flops / Total number of cells
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/7986d27b-900e-4cab-b0fa-98c58cff6e90)
+  
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/cfccef6b-90f8-44db-b1fe-b25feb6eda86)
 
  
 </details>
@@ -325,21 +334,23 @@ Every design folder has_
   - ` cd Desktop/work/tools/openlane_working_dir/openlane/configuration`
   - `less README.md`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/2d27055e-b8e8-439f-88a6-4b32779c75b8)
-
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/9ab642a0-53dd-4739-a362-6c629a82cea4)
 
  - floorplanning will be run according to configuration settings in the design specific `config.tcl` file.
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/ce744385-d657-4dec-9a43-629029eb5981)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/0c89fadc-1aac-4489-83c9-482e1d10e3d7)
+
  - `run_floor` in openlane to execute the floorplanning step.
  - an essential command in OpenLANE for creating the initial physical floorplan of an ASIC design. 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/03788a05-ebe5-4e1c-8458-09fe31893b44)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f646d287-880b-43a4-8ba7-b90297b2dfcd)
+
 
  - Output is the `def` file  (design exchange format)
  - contains important information about the physical layout of the chip, including the positions and dimensions of cells, placement of I/O pads, the power grid structure, and other physical design details.
  
 - `less picorv32a.floorplan.def`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/b63baf1f-f822-47e1-97d3-db4fa2b2170e)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f06a0d35-cc2e-4e82-8256-8338168ce178)
+
 
 7. **Floorplan layout in Magic**
   - To see actual layout after floorplan
@@ -347,8 +358,7 @@ Every design folder has_
   -  setting up the "magic" tool for the specified technology node, reading in a LEF file describing a standard cell library, and reading in a DEF file that likely contains the floorplan for an IC design based on the Picorv32 processor core.
   -  The "&" symbol at the end of the command allows you to run multiple commands in a single line
   
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/d52c032c-07ce-420d-9d55-22493e1567da">  
-
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/d408af5f-a67c-4911-97dd-bd95b72296a5">  
 
 # Library Binding and placement
 -  They involve selecting and placing standard cells from a library onto the chip's floorplan. They provide the foundation for subsequent stages in the ASIC design flow, including routing, verification, and manufacturing preparation.
@@ -356,13 +366,13 @@ Every design folder has_
    - Library will have width and height of cells, delay/timing info, required conditions, various shapes gates, various flavours of cells, etc
    - Netlist binding, also known as cell binding or logic binding, is the process of associating logical functions or gates from a high-level RTL (Register-Transfer Level) design with specific standard cells or library cells from a cell library.
    - The primary goal of initial placement is to create a starting point for the detailed placement step. It provides a rough layout of cells on the chip, ensuring that critical paths are appropriately positioned and that power and clock distribution networks can be efficiently established.
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/257c82b0-d23c-439b-975e-b9bc6daeab93">     
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/511b4f02-863b-4368-b450-e91df83a5f1e">     
 
 
 2. **Optimize placement**
    - Clearly define your optimization objectives, which may include minimizing wirelength, meeting timing constraints, optimizing for power distribution, and achieving area efficiency.
    - This is the stage where we estimate wire length and capacitance and based on that, insert repeaters(buffers that recondition the original signal and make a new signal and send it to following stage to maintain signal interigty)
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/3fe951b0-7941-452b-8954-6a6875737d1e">
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/8818e4a2-241f-4df9-b9de-a9f11794d91e">
 
    - timing analysis is done, assuming that all the clock signals are performing at ideal rate , to check wheather the placement done reasonable or not
     
@@ -374,13 +384,14 @@ Every design folder has_
 - `cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs`
 - after `ls` follow up with `<data>` `results` `placement` `picorv32a.placement.def`
 - `magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/7ca97c32-2c15-411e-8ff1-abd3d599c744"> 
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/85a40839-663f-4944-b4ef-0f2046140f37">
+
 Zoom in
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/4a1ed8ed-13fc-4b5b-9701-04acec3195bf">
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/c66b475e-7a65-4ab1-adca-269e94ea7fe0">
 
 # Standard Cell design and characterization flow
 - They are pre-designed and pre-characterized logic gates or functional blocks with fixed heights that are used to implement digital logic functions in an IC. 
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/ef79f06b-c292-4bc7-8587-a7a2f03a7b87">
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/2dde2399-1b39-440c-826d-333b1ad5764d">
 
 - **Cell Design Flow** ___
   1. Inputs : Process design kits(PDKs), DRC & LVS rules, SPICE models, library and user-defined specs.
@@ -390,9 +401,9 @@ Zoom in
 - **Characterization flow**
     - These libraries, along with their associated Liberty files, play a key role in enabling synthesis tools to determine the optimal arrangement of standard cells in an IC design.
       
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/5a2ec424-d8d3-4e0a-99b7-837f4aec1c6e">   
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/8b801ae5-cd16-49e7-b831-1c76badea449">   
 
-<img width="450" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/3a5a7e3e-e98b-4cb1-a4b6-8bde6d58b920"> 
+<img width="450" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/ecf665d3-fc89-42d0-9282-ed4887ae9442"> 
 
 - **STEPS**
 1. Read the module files
@@ -406,8 +417,9 @@ Zoom in
 
 - The open-source software GUNA is used for characterization.
 <p align="center">
-<img width="500" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/879552d0-0a6d-4bc5-8632-8e5d391772c6">
+<img width="500" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/35c83caf-db2b-444c-8976-40ee57df7863">
 </p>
+
 
 # General timing characterization parameters 
 - **Timing threshold definitions**
@@ -420,7 +432,7 @@ Zoom in
 - `out_rise_thr` : 50% point on the rising edge of ouput
 - `out_fall_thr` : 50% point on the falling edge of ouput
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/14638358-bba0-46ad-b767-5cb2691c910e"> 
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/852c2282-0520-43b1-9b62-23f1197e715c"> 
 
 - These are used to calculate factors such as propogation delay and transition time.
     - **propogation delay** = time(out_*_thr) - time(in_*_thr)
@@ -456,7 +468,7 @@ Zoom in
     - Simulation commands
       
 <p align="center">
-<img width="500" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/e04baa88-ad44-463f-9443-d9d37fb7fc9c">
+<img width="500" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/872548f7-032a-4360-b731-da50e2430719">
 </p>   
 
 ## SPICE Deck creation and simulation for CMOS Inverter
@@ -501,7 +513,7 @@ Vin in 0 2.5
 - The voltages at which the switch between the modes of operation happens is dependent on the threshold voltage of the device(s). Threshold voltage is a function of the W/L ratio of a device, therefore varying the W/L ratio will vary the output waveform of CMOS devices.
 
 <p align="center">
-<img width="500" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/707695d7-35ed-430d-aaf9-b017aae33cac">
+<img width="500" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/e2b0c0c9-6d6e-4b53-8712-0a3e7eb854c4">
 </p>   
 
 - To enable efficient description of the varying waveforms a single parameter called **switching threshold** is used. Switching threshold(Vm) is defined at the intersection of Vin = Vout. A perfectly symmetrical device will have a switching threshold such that Vin = Vout = VDD/2. If it is not symmetric, try to increase the PMOS width and run the simulation again. 
@@ -577,25 +589,25 @@ Vin in 0 0 pulse 0 2.5 0 10p 10p 1n 2n
    - Aluminum layer deposition, tiN deposition , W as contacts, and masking, photoresist, etching... everytime . proper holes with contacts have to be made
    - Top dielectric(Si3N4) to protect the chip
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/5a104049-efbe-4ca8-9d07-052d85395304)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/d384aa4f-1546-4f14-87a0-5173e9f8e0a1)
+
 
 # Sky130 Tech File Labs
 
 ## Magic Layout View of Inverter Standard Cell         
 - Git clone : `https://github.com/nickson-jose/vsdstdcelldesign` for cell files
-  
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/e67be7bb-47c7-4dc4-82e6-9accf5f1b385)
- 
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/16c6b884-c376-439c-81ec-a4ddf7cec67b)
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/556532f6-72f3-41a1-84ee-0169ff43ea51)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/082ece10-bf75-49c6-b00b-d79226a3d749)
 
 
 -  `cd Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
 magic -T sky130A.tech sky130_inv.mag &`
 
 <p align="center">
-<img width="300" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/15decefe-627b-47f4-b869-4f53abe0952a">
+<img width="300" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/b405e246-1369-40d6-a134-e9916faa0c27">
 </p>
+
 
 - Magic Key Features:
    1. Color Palette - Defines layers and associated colors
@@ -607,7 +619,8 @@ magic -T sky130A.tech sky130_inv.mag &`
 - move the cursor to a required area, and press `s`
 - Run the what command in the tkcon window:
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/0065c736-5da8-4576-9f15-e093c2f09bce"> 
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f9a02674-6519-46c9-9ee9-2d62182b2897"> 
+
 
 ## DRC errors
 - Design Rule Check involves checking whether the layout design of an integrated circuit adheres to a set of predefined design rules and constraints.
@@ -624,12 +637,12 @@ For more information on how to fix these DRC errors using Magic please refer to:
 - To extract the parasitic spice file for the associated layout one needs to create an extraction file
 - After generating the extracted file we need to output the .ext file to a spice file
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/f7f0de0c-41c2-4c79-a27c-1d1d5ca3255f"> 
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/c250d9a3-d9aa-4c0a-97b4-b97f21191196"> 
 
 - What's inside spice file that is created ???
 - `vim sky130_inv.spice`
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/d020d2fe-8451-462d-be5e-a09cf2516d5d"> 
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f5dcfd77-c96f-4ab9-99ff-36bee95db4d1"> 
 
  - Umm... Not much !!!
 - Has intervert netlist details
@@ -641,22 +654,22 @@ For more information on how to fix these DRC errors using Magic please refer to:
       
  - **GRID size** 
 
-<img width="550" alt="image" src="https://github.com/vandhana01/pes_pd/assets/142392052/757a8b90-8f38-4b80-9022-8cbcb2f9edef"> 
+<img width="550" alt="image" src="https://github.com/vandhana01/pes_openlane_pd/assets/142392052/61b23c2e-2de9-46ad-b3f9-254e6a3d1550"> 
 
 ## Modified Spice netlist
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/aa5ed965-00aa-4647-8550-f2f6143e2cdb)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/83eee9a8-fbca-4992-8113-d7075421d135)
  
 
 - To run the simulation with ngspice, invoke the ngspice tool with the spice file as input
 - `nyspice sky130_inv.spice`
-  
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/dbe2cffa-c4e4-41b6-a227-3ec42e98acf6)
+
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/6edc6cba-af2b-47ee-9569-4bd0657dfd12)
 
 - Graph
 - `plot y vs time a`
    
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/475114b5-714f-4455-9573-f17415bf619e)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/51425c06-4f15-4d1b-9b85-97fe9f1bb2f3)
 
 
  - Characterise the cell
@@ -688,78 +701,84 @@ For more information on how to fix these DRC errors using Magic please refer to:
    - Width of the standard cell should be odd multiples of the track pitch and height should be odd multiple of vertical track pitch
 - `Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/openlane/sky130fd_sc_hd/tracks.info`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/ea84d361-b6c8-472b-b8dd-3b9e96aa0611)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/57f600e7-02a5-446c-a66b-3c17ba7938d0)
 
 
 ## Standard Cell Pin Placement
 
 
 - To display the grid in magic:
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/f19366f0-5f6f-456d-b995-fa353d807b56)
-
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/66cfc396-0c3c-4148-8873-489823d66084)
 
 - Viewing the grid we can ensure our pin placement is optimized for PnR flow:
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/d4bc00de-a2c4-4d0e-8b2a-d160556f6b50)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/fc6ea8f8-c399-4c81-830a-f5f573930c0a)
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/8beec9fb-5f0f-48f5-8909-f58917ebe287)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/2602f008-4696-487f-9950-965cd4a5320e)
 
 ## LEF Generation in Magic
 - Magic allows users to generate cell LEF information directly from the Magic terminal.
 - To generate the cell LEF file from Magic perform:
 1. First  `save sky130_vsdinv.mag` and `exit` from new grid from console
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/0f0bb0c7-338a-408b-8002-3f053412001e)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/2d64fb7b-ad0f-4137-a3c8-70dfc1246748)
+
 
 2. Then open the file and extract LEF 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/056ce031-ba6b-4d3d-b98f-164fa943f24a)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/0e63643d-c976-4d6a-b94c-91e703ae8271)
 
 - **Generated cell LEF file**:
   
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/18447044-9765-40df-bd94-1ab1d3500137)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/92d2570f-e78b-4db6-81ce-c8ddb453388d)
+
   
 ## Including Custom Cells in OpenLANE
 - In order to include the new cells in OpenLANE we need to do some initial configuration:
   1. Fully characterize new cell with GUNA for specified corners
   2. Include cell level liberty file in top level liberty file
- ![image](https://github.com/vandhana01/pes_pd/assets/142392052/e7a52951-b47e-4829-8bd6-b67d713446f3)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/2a5de7a7-3b55-437c-bcab-187495a17133)
+
 
   3. Reconfigure synthesis switches in the `config.tcl` file
      
 - we need the lef file, library file that has cells
   
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/e6ce022e-5a1e-48e6-95fa-f08ba1a5d7da)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/a8baef98-a854-4663-bab2-65267ac88b41)
 
   - Change config file so that these libraries and lef file is used
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/1ce70d96-34bb-4b3c-917e-b369548a4109)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/fdc98308-e976-4081-804a-85b987c033bb)
+
 
 - Note: This step will also include any extra LEF files generated for the custom standard cell(s)
 Overwrite previous run to include new configuration switches
 
    4. Overwrite previous run to include new configuration switches
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/8bdfe1eb-f227-4f70-9288-bfcd05b18990)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/10e0d8c9-6a26-49c8-b088-236412e9c59e)
+
      
    5. Add additional statements to include extra cell LEFs
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/8ebad0c0-dc9d-4e96-9566-647e49463c77)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/e38648be-a183-4daf-9f31-b2dd8eae3dbf)
+
 
 - Check synthesis logs to ensure cell has been integrated correctly
   - `run_synthesis`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/76aa141b-cd49-4e74-bb84-6c20b88d027b)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/44c3a374-210d-4ad5-8ad3-cd735639d768)
 
-
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/49c15fbd-2c84-4b51-98a5-cefd30e1feef)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/78b3ed52-bc25-49fe-88db-58e625649cd8)
 
 - vsdinv cell has been used in synthesis process!!
 -  floorplan and placement : `init_floorplan`  `run_placement`
 -  to view the design we type the command
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/3b2d5afc-1152-4f21-991b-83f9d7b48f51)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/4cecba55-316a-4356-a483-b05a6f65b71b)
+
 
 - LAYOUT
   
- ![image](https://github.com/vandhana01/pes_pd/assets/142392052/bfee562e-fc2c-4a58-b6af-91f2849121a6)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/bf5afaad-c506-411e-83a7-07987fcf70ca)
 
 - Zoom in by clicking `z` in keyboard and `v` to fit screen
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/2d4a0163-7012-468a-a7ef-bd8240d49e08)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/feaec9b1-f026-48a6-a858-9b1a2882287e)
+
 
 # Timing Analysis with Ideal Clocks using OpenSTA
   
@@ -778,17 +797,19 @@ VLSI engineers will obtain system specifications in the architecture design phas
 - We must create two files
    - first one must be in the openlane directory, known as the 'pre_sta.conf' file
    - The second is the my_base.sdc file
--To run the timing analysis : `sta pre_sta.conf`
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/29798695-c441-4600-bf33-8bd665db7537)
+- To run the timing analysis : `sta pre_sta.conf`
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/0cbe7b2c-2bbc-43bb-b518-a49e76d0d3f4)
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/f3a3f0d6-4d5d-42fd-9ce7-8c185728b51c)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/3c281485-2eaa-4dd4-b147-f2072c6366e8)
+
 
 - `set ::env(SYNTH_MAx_FANOUT) 4`  reduces the slack violation
 - The delay of this cell is large due to a high load capacitance due to high fanout. To fix this problem we can re-run synthesis within OpenLANE after reconfiguring the maximum fanout load value.
 
 ## Cell Replacement Example
 - To determine what loads our net is driving in OpenSTA we can report net connecitons
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/a6f55ca0-ea60-4354-a860-a98130337d85)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/582bfa26-3fef-4703-8642-8ab2c3369edf)
+
 
 ## Clock Tree Synthesis
 - After running floorplan and standard cell placement in OpenLANE we are ready to insert our clock tree for sequential elements in our design. Two of the main concerns with generation of the clock tree are:
@@ -797,7 +818,7 @@ VLSI engineers will obtain system specifications in the architecture design phas
 - we write this netlist using `write_verilog` and replace the openlane generated mapped file ie., `picorv32a.synthesis.v`
 - openlane flow: ` run_flooorplan`  `run_placement`  `run_cts`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/f0ae4817-8792-4e95-b810-1db1213e11b5)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/bfaa26fc-07ad-472f-9ede-4ab6b0439347)
 
 
 - Note: To ensure timing constraints CTS will add buffers throughout the clock tree which will modify our netlist
@@ -807,15 +828,17 @@ VLSI engineers will obtain system specifications in the architecture design phas
 - In OpenROAD the timing analysis is done by creating a .db database file. This database file is created from the post-cts LEF and DEF files. To generate the .db files within OpenROAD
 ## Timing Analysis with Real CLocks using OpenSTA
 - Type the command `openroad` first
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/d6c7bb4c-19cc-44d6-9598-12d6590dfdb9)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/52c8e869-5dd9-49c5-8016-c4801fb11539)
+
 
 - read the .lef file : `read_lef /openLANE_flow/designs/picorv32a/runs/17-09_09-08/tmp/merged.lef`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/7fde30cf-5f2e-4849-977b-caeae491954e)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/88b01b4a-6809-455f-98c1-13de02efe076)
 
 - read the .def file: `read_def /openLANE_flow/designs/picorv32a/runs/17-09_09-08/results/cts/picorv32a.cts.def`
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/e1d880ca-9fd0-4691-b306-c817b82b4422)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/1f3ac3dd-6460-4e5a-aeae-4241c3ee5e87)
+
 
 ```c
 write_db pico_cts.db
@@ -824,21 +847,25 @@ read_verilog /openLANE_flow/designs/picorv32a/runs/17-09_09-08/results/synthesis
 read_liberty -max $::env(LIB_SLOWEST)
 read_liberty -max $::env(LIB_FASTEST)
 ```
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/bd56f415-4664-4568-996b-011049b7d5d8)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/08bd038b-3cf6-49c5-92a5-6be536a908a8)
+
 
 - read the src file : `read_sdc /openLANE_flow/designs/picorv32a/src/sky130/my_base.sdc`
- ![image](https://github.com/vandhana01/pes_pd/assets/142392052/6577d19d-587d-40f3-af1f-3bb5dd2781a8)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/3adbd09e-a207-48f1-bd57-97b8e200b918)
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/12a40982-a18c-4c2d-99bf-a7dfa63a3ce3)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/69bb61e1-b106-456c-8ea9-390fdc8faebd)
+
 
 - We set the clock and Checking the report
 - Perform it again for a more accurate result
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/92465873-eff6-4857-b6f8-006a7abe7883)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/f224eea0-09e7-4b99-b8ba-407323de91c2)
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/c5c989ea-2f39-41fa-b814-481bd2ac79ce)
+
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/9258275a-4a9e-4ac6-bce4-fedab922ab07)
+
 
 - then `report_clock_skew -hold` and `report clock_skew -setup`
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/986d0180-3228-4516-82c4-ecabd90394f7)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/61bb17bd-1f08-43f3-974f-dddeb78ccfed)
 
   
 - Note: Whenever the DEF file changes we need to recreate this .db file
@@ -853,11 +880,10 @@ read_liberty -max $::env(LIB_FASTEST)
 [](https://github.com/vandhana01/pes_asic_class#links-for-easy-navigaton)
 
 # Power Distribution Network Generation
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/9c49bebd-8dd8-484b-a43c-ccdc249b51c2)
-
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/c56fdc35-1bce-481e-8d4d-99f74c5bfbb4)
 
 - To generate the PDN in OpenLANE :`gen_pdn`
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/aa6d8fb0-51ae-4622-8848-2ae6ea09d5ce)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/5325819c-1127-43a4-a9ee-30aa8504292f)
 
 The PDN feature within OpenLANE will create:
 1. Power ring global to the entire core
@@ -865,7 +891,8 @@ The PDN feature within OpenLANE will create:
 3. Power straps to bring power into the center of the chip
 4. Power rails for the standard cells
 
-![image](https://github.com/vandhana01/pes_pd/assets/142392052/0196b2ab-4f96-4a79-8b27-293e74c4e9c4)
+![image](https://github.com/vandhana01/pes_openlane_pd/assets/142392052/5f195586-fa4d-4d18-bbbc-036c13b915fc)
+
 
 # Global and Detailed Routing
 - OpenLANE uses TritonRoute as the routing engine for physical implementations of designs. Routing consists of two stages
